@@ -60,7 +60,7 @@ frameobj.setVisible(true);
 
 private JButton createCardButton(String movieTitle) {
 String cardText = movieTitle;
-ImageIcon rawIcon = new ImageIcon(movieTitle + "images/.jpeg"); 
+ImageIcon rawIcon = new ImageIcon("images/" + movieTitle + ".jpeg"); 
 Image scaledImage = rawIcon.getImage().getScaledInstance(120, 120, Image.SCALE_SMOOTH);
 ImageIcon scaledIcon = new ImageIcon(scaledImage);
 
