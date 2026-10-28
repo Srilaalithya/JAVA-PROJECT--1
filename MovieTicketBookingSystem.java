@@ -345,4 +345,4 @@ public class MovieTicketBookingSystem extends JFrame {
 }
 
 
-        
+        //Selection page 
